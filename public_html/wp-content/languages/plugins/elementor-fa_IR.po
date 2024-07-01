@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder &#8211; More than Just a Page Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-06-24 18:55:45+0000\n"
+"PO-Revision-Date: 2024-06-30 18:15:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -365,6 +365,10 @@ msgstr "تصویر پروفایل"
 msgid "Type your title here"
 msgstr "عنوان خود را اینجا تایپ کنید"
 
+#: modules/conversion-center/base/widget-contact-button-base.php:223
+msgid "Store Manager"
+msgstr "مدیر فروشگاه"
+
 #: modules/conversion-center/base/widget-contact-button-base.php:214
 #: modules/conversion-center/base/widget-contact-button-base.php:269
 msgid "Type your name here"
@@ -415,6 +419,11 @@ msgstr "@"
 msgid "Email"
 msgstr "ایمیل"
 
+#: modules/conversion-center/base/widget-contact-button-base.php:72
+#: modules/conversion-center/base/widget-link-in-bio-base.php:476
+msgid "Platform"
+msgstr "پلتفرم"
+
 #: modules/conversion-center/base/widget-contact-button-base.php:64
 #: modules/conversion-center/base/widget-contact-button-base.php:341
 msgid "Chat Button"
@@ -438,6 +447,10 @@ msgstr "نمی‌تواند نصب شود"
 #: modules/apps/admin-apps-page.php:114 modules/apps/admin-apps-page.php:147
 msgid "Cannot Activate"
 msgstr "نمی‌تواند فعال شود"
+
+#: includes/widgets/traits/button-trait.php:298
+msgid "Space between"
+msgstr "فاصله بین"
 
 #: includes/settings/settings.php:440
 msgid "Reduce unnecessary render-blocking loads by dequeuing unused Gutenberg block editor scripts and styles."
@@ -1102,27 +1115,27 @@ msgstr "Groove"
 msgid "Border Type"
 msgstr "نوع حاشیه"
 
-#: includes/controls/groups/background.php:605
+#: includes/controls/groups/background.php:606
 msgid "Background Fallback"
 msgstr "پس‌زمینه جایگزین"
 
-#: includes/controls/groups/background.php:476
+#: includes/controls/groups/background.php:477
 msgid "Display Size"
 msgstr "اندازه نمایش"
 
-#: includes/controls/groups/background.php:299
+#: includes/controls/groups/background.php:300
 msgid "Background Image"
 msgstr "تصویر پس‌زمینه"
 
-#: includes/controls/groups/background.php:243
+#: includes/controls/groups/background.php:244
 msgid "Angle"
 msgstr "زاویه‌دار"
 
-#: includes/controls/groups/background.php:232
+#: includes/controls/groups/background.php:233
 msgid "Radial"
 msgstr "دایره‌ای"
 
-#: includes/controls/groups/background.php:231
+#: includes/controls/groups/background.php:232
 msgid "Linear"
 msgstr "خطی"
 
@@ -1944,7 +1957,7 @@ msgstr "افزودن کانتینر جدید"
 msgid "Bold"
 msgstr "برجسته"
 
-#: includes/controls/groups/background.php:725
+#: includes/controls/groups/background.php:726
 #: includes/widgets/image-carousel.php:392
 msgid "Lazyload"
 msgstr "بارگذاری تنبل"
@@ -2421,90 +2434,90 @@ msgstr "سازگار"
 msgid "Round"
 msgstr "گرد"
 
-#: includes/controls/groups/background.php:463 includes/widgets/common.php:1088
+#: includes/controls/groups/background.php:464 includes/widgets/common.php:1088
 msgid "Repeat-x"
 msgstr "تکرار-x"
 
-#: includes/controls/groups/background.php:464 includes/widgets/common.php:1089
+#: includes/controls/groups/background.php:465 includes/widgets/common.php:1089
 msgid "Repeat-y"
 msgstr "تکرار-y"
 
-#: includes/controls/groups/background.php:461 includes/widgets/common.php:1086
+#: includes/controls/groups/background.php:462 includes/widgets/common.php:1086
 msgid "No-repeat"
 msgstr "بدون تکرار"
 
-#: includes/controls/groups/background.php:462 includes/widgets/common.php:1083
+#: includes/controls/groups/background.php:463 includes/widgets/common.php:1083
 #: includes/widgets/common.php:1087
 msgid "Repeat"
 msgstr "تکرار"
 
-#: includes/controls/groups/background.php:383 includes/widgets/common.php:1047
+#: includes/controls/groups/background.php:384 includes/widgets/common.php:1047
 msgid "Y Position"
 msgstr "موقعیت عمودی"
 
-#: includes/controls/groups/background.php:340 includes/widgets/common.php:1011
+#: includes/controls/groups/background.php:341 includes/widgets/common.php:1011
 msgid "X Position"
 msgstr "موقعیت افقی"
 
-#: includes/controls/groups/background.php:274
-#: includes/controls/groups/background.php:326
-#: includes/controls/groups/background.php:714 includes/widgets/common.php:997
+#: includes/controls/groups/background.php:275
+#: includes/controls/groups/background.php:327
+#: includes/controls/groups/background.php:715 includes/widgets/common.php:997
 #: includes/widgets/image.php:390
 msgid "Bottom Right"
 msgstr "پایین راست"
 
-#: includes/controls/groups/background.php:273
-#: includes/controls/groups/background.php:325
-#: includes/controls/groups/background.php:713 includes/widgets/common.php:996
+#: includes/controls/groups/background.php:274
+#: includes/controls/groups/background.php:326
+#: includes/controls/groups/background.php:714 includes/widgets/common.php:996
 #: includes/widgets/image.php:389
 msgid "Bottom Left"
 msgstr "پایین چپ"
 
-#: includes/controls/groups/background.php:272
-#: includes/controls/groups/background.php:324
-#: includes/controls/groups/background.php:712 includes/widgets/common.php:995
+#: includes/controls/groups/background.php:273
+#: includes/controls/groups/background.php:325
+#: includes/controls/groups/background.php:713 includes/widgets/common.php:995
 #: includes/widgets/image.php:388
 msgid "Bottom Center"
 msgstr "پایین وسط"
 
-#: includes/controls/groups/background.php:271
-#: includes/controls/groups/background.php:323
-#: includes/controls/groups/background.php:711 includes/widgets/common.php:994
+#: includes/controls/groups/background.php:272
+#: includes/controls/groups/background.php:324
+#: includes/controls/groups/background.php:712 includes/widgets/common.php:994
 #: includes/widgets/image.php:387
 msgid "Top Right"
 msgstr "بالا راست"
 
-#: includes/controls/groups/background.php:270
-#: includes/controls/groups/background.php:322
-#: includes/controls/groups/background.php:710 includes/widgets/common.php:993
+#: includes/controls/groups/background.php:271
+#: includes/controls/groups/background.php:323
+#: includes/controls/groups/background.php:711 includes/widgets/common.php:993
 #: includes/widgets/image.php:386
 msgid "Top Left"
 msgstr "بالا چپ"
 
-#: includes/controls/groups/background.php:269
-#: includes/controls/groups/background.php:321
-#: includes/controls/groups/background.php:709 includes/widgets/common.php:992
+#: includes/controls/groups/background.php:270
+#: includes/controls/groups/background.php:322
+#: includes/controls/groups/background.php:710 includes/widgets/common.php:992
 #: includes/widgets/image.php:385
 msgid "Top Center"
 msgstr "بالا وسط"
 
-#: includes/controls/groups/background.php:268
-#: includes/controls/groups/background.php:320
-#: includes/controls/groups/background.php:708 includes/widgets/common.php:991
+#: includes/controls/groups/background.php:269
+#: includes/controls/groups/background.php:321
+#: includes/controls/groups/background.php:709 includes/widgets/common.php:991
 #: includes/widgets/image.php:384
 msgid "Center Right"
 msgstr "وسط راست"
 
-#: includes/controls/groups/background.php:267
-#: includes/controls/groups/background.php:319
-#: includes/controls/groups/background.php:707 includes/widgets/common.php:990
+#: includes/controls/groups/background.php:268
+#: includes/controls/groups/background.php:320
+#: includes/controls/groups/background.php:708 includes/widgets/common.php:990
 #: includes/widgets/image.php:383
 msgid "Center Left"
 msgstr "وسط چپ"
 
-#: includes/controls/groups/background.php:266
-#: includes/controls/groups/background.php:318
-#: includes/controls/groups/background.php:706 includes/widgets/common.php:989
+#: includes/controls/groups/background.php:267
+#: includes/controls/groups/background.php:319
+#: includes/controls/groups/background.php:707 includes/widgets/common.php:989
 #: includes/widgets/image.php:382
 msgid "Center Center"
 msgstr "وسط وسط"
@@ -3352,30 +3365,30 @@ msgstr "مکث در واکنش"
 msgid "%s Video Player"
 msgstr "%s پخش کننده ویدئو"
 
-#: includes/controls/groups/background.php:700
+#: includes/controls/groups/background.php:701
 msgid "Background Position"
 msgstr "موقعیت پس زمینه"
 
-#: includes/controls/groups/background.php:484
-#: includes/controls/groups/background.php:689 includes/widgets/image.php:367
+#: includes/controls/groups/background.php:485
+#: includes/controls/groups/background.php:690 includes/widgets/image.php:367
 msgid "Contain"
 msgstr "دربرگیرنده"
 
-#: includes/controls/groups/background.php:483
-#: includes/controls/groups/background.php:688 includes/widgets/image.php:366
+#: includes/controls/groups/background.php:484
+#: includes/controls/groups/background.php:689 includes/widgets/image.php:366
 #: modules/conversion-center/base/widget-link-in-bio-base.php:956
 #: modules/conversion-center/base/widget-link-in-bio-base.php:993
 msgid "Cover"
 msgstr "پوشش"
 
-#: includes/controls/groups/background.php:482
-#: includes/controls/groups/background.php:687
+#: includes/controls/groups/background.php:483
+#: includes/controls/groups/background.php:688
 #: includes/elements/container.php:585 includes/widgets/social-icons.php:281
 #: includes/widgets/video.php:588
 msgid "Auto"
 msgstr "خودکار"
 
-#: includes/controls/groups/background.php:681
+#: includes/controls/groups/background.php:682
 msgid "Background Size"
 msgstr "سایز پس‌زمینه"
 
@@ -3406,11 +3419,11 @@ msgstr "مزیت ها"
 msgid "Custom Icons"
 msgstr "آیکون‌های سفارشی"
 
-#: includes/controls/groups/background.php:653
+#: includes/controls/groups/background.php:654
 msgid "Transition"
 msgstr "انتقال"
 
-#: includes/controls/groups/background.php:643
+#: includes/controls/groups/background.php:644
 msgid "Duration"
 msgstr "مدت زمان"
 
@@ -3550,27 +3563,27 @@ msgstr "فرفری"
 msgid "Basic Gallery"
 msgstr "گالری پایه"
 
-#: includes/controls/groups/background.php:752
+#: includes/controls/groups/background.php:753
 msgid "Out"
 msgstr "بیرون"
 
-#: includes/controls/groups/background.php:751
+#: includes/controls/groups/background.php:752
 msgid "In"
 msgstr "در"
 
-#: includes/controls/groups/background.php:736
+#: includes/controls/groups/background.php:737
 msgid "Ken Burns Effect"
 msgstr "افکت Ken Burns"
 
-#: includes/controls/groups/background.php:606
+#: includes/controls/groups/background.php:607
 msgid "This cover image will replace the background video in case that the video could not be loaded."
 msgstr "در صورت عدم بارگذاری ویدیو، این تصویر جلد جایگزین فیلم پس زمینه خواهد شد."
 
-#: includes/controls/groups/background.php:581 includes/widgets/video.php:364
+#: includes/controls/groups/background.php:582 includes/widgets/video.php:364
 msgid "Play On Mobile"
 msgstr "نمایش در موبایل"
 
-#: includes/controls/groups/background.php:526
+#: includes/controls/groups/background.php:527
 msgid "YouTube/Vimeo link, or link to video file (mp4 is recommended)."
 msgstr "لینک یوتیوب یا فایل ویدیویی (فرمت mp4 توصیه می شود)."
 
@@ -3592,7 +3605,7 @@ msgstr "مسیر فایل: %s"
 msgid "Need Help"
 msgstr "درخواست کمک"
 
-#: includes/controls/groups/background.php:571
+#: includes/controls/groups/background.php:572
 msgid "Play Once"
 msgstr "نمایش یک بار"
 
@@ -4083,7 +4096,7 @@ msgstr "پیشخوان"
 
 #: core/common/modules/finder/categories/site.php:46
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:12
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:23
 msgid "Homepage"
 msgstr "صفحه اصلی"
 
@@ -4333,19 +4346,19 @@ msgctxt "Filter Control"
 msgid "Blur"
 msgstr "تاری"
 
-#: includes/controls/groups/background.php:561 includes/widgets/video.php:322
+#: includes/controls/groups/background.php:562 includes/widgets/video.php:322
 msgid "Specify an end time (in seconds)"
 msgstr "زمان پایان را بر حسب ثانیه مشخص کنید"
 
-#: includes/controls/groups/background.php:559 includes/widgets/video.php:320
+#: includes/controls/groups/background.php:560 includes/widgets/video.php:320
 msgid "End Time"
 msgstr "زمان پایان"
 
-#: includes/controls/groups/background.php:549 includes/widgets/video.php:311
+#: includes/controls/groups/background.php:550 includes/widgets/video.php:311
 msgid "Specify a start time (in seconds)"
 msgstr "زمان آغاز را بر حسب ثانیه مشخص کنید"
 
-#: includes/controls/groups/background.php:547 includes/widgets/video.php:309
+#: includes/controls/groups/background.php:548 includes/widgets/video.php:309
 msgid "Start Time"
 msgstr "زمان آغاز"
 
@@ -4393,8 +4406,8 @@ msgstr "شفافیت"
 msgid "Max Width"
 msgstr "حداکثر عرض"
 
-#: includes/controls/groups/background.php:263
-#: includes/controls/groups/background.php:311
+#: includes/controls/groups/background.php:264
+#: includes/controls/groups/background.php:312
 #: includes/controls/groups/box-shadow.php:69
 #: includes/elements/container.php:1388 includes/widgets/common.php:339
 #: includes/widgets/common.php:986 includes/widgets/divider.php:748
@@ -4588,7 +4601,7 @@ msgstr "توکن منقضی شده است."
 msgid "Set how many slides are scrolled per swipe."
 msgstr "مشخص کنید چه تعداد اسلاید در هر چرخش اسکرول شوند."
 
-#: includes/controls/groups/background.php:446
+#: includes/controls/groups/background.php:447
 msgid "Note: Attachment Fixed works only on desktop."
 msgstr "توجه: حالت های ضمیمه و ثابت فقط در نسخه دسکتاپ به کار می روند."
 
@@ -4608,7 +4621,7 @@ msgstr "نسخه کنونی"
 msgid "When you turn on privacy mode, YouTube/Vimeo won't store information about visitors on your website unless they play the video."
 msgstr "وقتی حالت حریم خصوصی را روشن می‌کنید، یوتیوب/ویمیو اطلاعات بازدیدکنندگان را در وب‌سایت شما ذخیره نمی‌کند مگر اینکه آنها ویدیو را پخش کنند."
 
-#: includes/controls/groups/background.php:595 includes/widgets/video.php:454
+#: includes/controls/groups/background.php:596 includes/widgets/video.php:454
 msgid "Privacy Mode"
 msgstr "حالت حریم خصوصی"
 
@@ -4762,7 +4775,7 @@ msgstr "حذف"
 #: includes/editor-templates/repeater.php:21 assets/js/editor.js:30492
 #: assets/js/editor.js:50424
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:20
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:16
 msgid "Duplicate"
 msgstr "تکثیر"
 
@@ -5084,7 +5097,7 @@ msgstr "ایندکس Z"
 #: core/kits/documents/tabs/theme-style-form-fields.php:137
 #: core/kits/documents/tabs/theme-style-images.php:203
 #: includes/base/element-base.php:1233
-#: includes/controls/groups/background.php:671 includes/elements/column.php:318
+#: includes/controls/groups/background.php:672 includes/elements/column.php:318
 #: includes/elements/column.php:478 includes/elements/column.php:586
 #: includes/elements/container.php:720 includes/elements/container.php:939
 #: includes/elements/container.php:1088 includes/elements/section.php:580
@@ -5301,93 +5314,93 @@ msgstr "فاصله بینابینی"
 msgid "List"
 msgstr "ليست"
 
-#: includes/shapes.php:209
+#: includes/shapes.php:212
 msgctxt "Shapes"
 msgid "Book"
 msgstr "کتابی"
 
-#: includes/shapes.php:205
+#: includes/shapes.php:208
 msgctxt "Shapes"
 msgid "Split"
 msgstr "جدا کننده"
 
-#: includes/shapes.php:201
+#: includes/shapes.php:204
 msgctxt "Shapes"
 msgid "Arrow"
 msgstr "پیکان"
 
-#: includes/shapes.php:197
+#: includes/shapes.php:200
 msgctxt "Shapes"
 msgid "Waves Pattern"
 msgstr "الگوی موج"
 
-#: includes/shapes.php:193
+#: includes/shapes.php:196
 msgctxt "Shapes"
 msgid "Waves Brush"
 msgstr "براش موج"
 
-#: includes/shapes.php:188
+#: includes/shapes.php:191
 msgctxt "Shapes"
 msgid "Waves"
 msgstr "موج ها"
 
-#: includes/shapes.php:183
+#: includes/shapes.php:186
 msgctxt "Shapes"
 msgid "Curve Asymmetrical"
 msgstr "خم نامتقارن"
 
-#: includes/shapes.php:179
+#: includes/shapes.php:182
 msgctxt "Shapes"
 msgid "Curve"
 msgstr "خم"
 
-#: includes/shapes.php:176
+#: includes/shapes.php:179
 msgctxt "Shapes"
 msgid "Fan Opacity"
 msgstr "شفافیت پروانه"
 
-#: includes/shapes.php:172
+#: includes/shapes.php:175
 msgctxt "Shapes"
 msgid "Tilt Opacity"
 msgstr "شیب شفاف"
 
-#: includes/shapes.php:167
+#: includes/shapes.php:170
 msgctxt "Shapes"
 msgid "Tilt"
 msgstr "شیب"
 
-#: includes/shapes.php:162
+#: includes/shapes.php:165
 msgctxt "Shapes"
 msgid "Triangle Asymmetrical"
 msgstr "مثلث نامتقارن"
 
-#: includes/shapes.php:158
+#: includes/shapes.php:161
 msgctxt "Shapes"
 msgid "Triangle"
 msgstr "مثلث"
 
-#: includes/shapes.php:153
+#: includes/shapes.php:156
 msgctxt "Shapes"
 msgid "Pyramids"
 msgstr "هرم ها"
 
-#: includes/shapes.php:150 includes/widgets/divider.php:171
+#: includes/shapes.php:153 includes/widgets/divider.php:171
 #: includes/widgets/divider.php:301
 msgctxt "Shapes"
 msgid "Zigzag"
 msgstr "زیگ زاگ"
 
-#: includes/shapes.php:144
+#: includes/shapes.php:147
 msgctxt "Shapes"
 msgid "Clouds"
 msgstr "ابرها"
 
-#: includes/shapes.php:138
+#: includes/shapes.php:141
 msgctxt "Shapes"
 msgid "Drops"
 msgstr "قطره ها"
 
-#: includes/shapes.php:134
+#: includes/shapes.php:137
 msgctxt "Shapes"
 msgid "Mountains"
 msgstr "کوه ها"
@@ -5453,13 +5466,13 @@ msgstr "شناسه CSS خود را بدون # وارد کنید. مثال: my-id
 msgid "CSS ID"
 msgstr "شناسه CSS"
 
-#: includes/controls/groups/background.php:228
+#: includes/controls/groups/background.php:229
 msgctxt "Background Control"
 msgid "Type"
 msgstr "نوع"
 
 #: includes/controls/groups/background.php:183
-#: includes/controls/groups/background.php:211
+#: includes/controls/groups/background.php:212
 msgctxt "Background Control"
 msgid "Location"
 msgstr "موقعیت"
@@ -6066,7 +6079,7 @@ msgstr "بیرون"
 msgid "Inside"
 msgstr "درون"
 
-#: includes/controls/groups/background.php:747
+#: includes/controls/groups/background.php:748
 #: includes/controls/groups/flex-container.php:29
 #: includes/widgets/image-carousel.php:503
 #: modules/nested-tabs/widgets/nested-tabs.php:170
@@ -6132,7 +6145,7 @@ msgstr "حلقه"
 msgid "Video Options"
 msgstr "تنظیمات ویدئو"
 
-#: includes/controls/groups/background.php:523
+#: includes/controls/groups/background.php:524
 msgid "Video Link"
 msgstr "پیوند Vimeo"
 
@@ -6176,7 +6189,7 @@ msgstr "اسلایدشو"
 msgid "Vertical Alignment"
 msgstr "تراز عمودی"
 
-#: includes/controls/groups/background.php:632
+#: includes/controls/groups/background.php:633
 #: includes/widgets/image-carousel.php:462
 msgid "Infinite Loop"
 msgstr "حلقه بی‌نهایت"
@@ -6626,7 +6639,7 @@ msgstr "زیرنویس"
 
 #: core/kits/documents/tabs/theme-style-images.php:21
 #: core/kits/documents/tabs/theme-style-images.php:51
-#: includes/controls/groups/background.php:621
+#: includes/controls/groups/background.php:622
 #: includes/widgets/image-gallery.php:220
 msgid "Images"
 msgstr "تصاویر"
@@ -6772,7 +6785,7 @@ msgstr "اسلایدها جهت نمایش"
 msgid "Choose Image"
 msgstr "تصویر را انتخاب کنید"
 
-#: includes/controls/groups/background.php:290 includes/widgets/common.php:899
+#: includes/controls/groups/background.php:291 includes/widgets/common.php:899
 #: includes/widgets/image-box.php:333 includes/widgets/image-carousel.php:673
 #: includes/widgets/image.php:45 includes/widgets/image.php:108
 #: includes/widgets/image.php:233 includes/widgets/testimonial.php:298
@@ -7377,7 +7390,7 @@ msgid "Boxed"
 msgstr "جعبه ای"
 
 #: core/settings/editor-preferences/model.php:90
-#: includes/controls/groups/background.php:497
+#: includes/controls/groups/background.php:498
 #: includes/controls/image-dimensions.php:95
 #: includes/elements/container.php:444 includes/elements/container.php:1195
 #: includes/elements/section.php:263 includes/elements/section.php:975
@@ -7740,8 +7753,8 @@ msgstr "افزودن آیتم"
 #: assets/js/editor.js:28090 assets/js/editor.js:30584
 #: assets/js/editor.js:47330 assets/js/import-export-admin.js:287
 #: assets/js/packages/editor-site-navigation/editor-site-navigation.js:2
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:21
-#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:26
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:17
+#: assets/js/packages/editor-site-navigation/editor-site-navigation.strings.js:22
 msgid "Delete"
 msgstr "حذف"
 
@@ -7749,8 +7762,8 @@ msgstr "حذف"
 msgid "Select Icon"
 msgstr "انتخاب آیکن"
 
-#: core/kits/manager.php:139 includes/controls/groups/background.php:327
-#: includes/controls/groups/background.php:485
+#: core/kits/manager.php:139 includes/controls/groups/background.php:328
+#: includes/controls/groups/background.php:486
 #: includes/controls/groups/flex-item.php:24
 #: includes/controls/groups/flex-item.php:93
 #: includes/controls/groups/flex-item.php:142
@@ -7882,22 +7895,22 @@ msgstr "یکپارچه"
 msgid "None"
 msgstr "هیچ"
 
-#: includes/controls/groups/background.php:455
+#: includes/controls/groups/background.php:456
 msgctxt "Background Control"
 msgid "Repeat"
 msgstr "تکرار"
 
-#: includes/controls/groups/background.php:432
+#: includes/controls/groups/background.php:433
 msgctxt "Background Control"
 msgid "Fixed"
 msgstr "ثابت"
 
-#: includes/controls/groups/background.php:431
+#: includes/controls/groups/background.php:432
 msgctxt "Background Control"
 msgid "Scroll"
 msgstr "نوار پیمایش"
 
-#: includes/controls/groups/background.php:426
+#: includes/controls/groups/background.php:427
 msgctxt "Background Control"
 msgid "Attachment"
 msgstr "ضمیمه"
@@ -7993,12 +8006,12 @@ msgstr "بالا"
 #: core/experiments/manager.php:510
 #: core/settings/editor-preferences/model.php:120
 #: includes/base/widget-base.php:296 includes/controls/animation.php:152
-#: includes/controls/font.php:66 includes/controls/groups/background.php:317
-#: includes/controls/groups/background.php:430
-#: includes/controls/groups/background.php:460
-#: includes/controls/groups/background.php:481
-#: includes/controls/groups/background.php:686
-#: includes/controls/groups/background.php:705
+#: includes/controls/font.php:66 includes/controls/groups/background.php:318
+#: includes/controls/groups/background.php:431
+#: includes/controls/groups/background.php:461
+#: includes/controls/groups/background.php:482
+#: includes/controls/groups/background.php:687
+#: includes/controls/groups/background.php:706
 #: includes/controls/groups/border.php:63
 #: includes/controls/groups/flex-container.php:208
 #: includes/controls/groups/flex-item.php:23
